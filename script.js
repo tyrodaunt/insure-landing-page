@@ -11,6 +11,8 @@ function shownav() {
 
    if (mobileNav.style.display = 'block') {
       container.style.overflowY = 'hidden';
+   } else {
+      container.style.overflowY = 'scroll'
    }
    
 }
@@ -22,7 +24,11 @@ function hidenav() {
 
    if (mobileNav.style.display = 'none') {
       container.style.overflowY = 'scroll';
+   } else {
+       container.style.overflowY = 'hidden'
    }
+
+   
 
 }
 
